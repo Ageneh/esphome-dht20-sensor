@@ -4,7 +4,7 @@ esphome:
   name: temperatursensor
   friendly_name: Temperatursensor
   includes:
-    - custom_temp_sensor.h
+    - custom_temp_sensor_dht20.h
   libraries:
     - Wire
     - "https://github.com/RobTillaart/DHT20"
